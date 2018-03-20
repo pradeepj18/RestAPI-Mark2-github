@@ -56,7 +56,6 @@ public class ApexClass {
 		Element xmlapexclassName = doc.createElement("name");
 		xmlapexclassName.appendChild(doc.createTextNode("ApexClass"));//Make it dynamic
 		xmlapexclasstype.appendChild(xmlapexclassName);
-		
 		/* ----------------------Apex class End---------------*/
 		
 		TransformerFactory transformerFactory = TransformerFactory.newInstance();
