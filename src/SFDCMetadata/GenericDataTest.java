@@ -18,11 +18,8 @@ import org.json.JSONObject;
 import org.w3c.dom.Attr;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-
-import DataContainer.DataWarehouse;
 import DataContainer.GenericData;
 import credentials.RestLogin;
-
 public class GenericDataTest {
 	public static void main(String... ss) throws Exception {
 		JSONObject loginObject1 = RestLogin.GetLoginObject();
