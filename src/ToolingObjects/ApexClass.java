@@ -40,6 +40,7 @@ public class ApexClass {
 
 		/* ----------------------Apex class Start---------------*/
 		JSONArray apexTriggerList = DataWarehouse.getApexClassList(loginObject,startdate,enddate);
+		System.out.println("SIZE : "+apexTriggerList.length());
 		Element xmlapexclasstype = doc.createElement("types");
 		xmlroot.appendChild(xmlapexclasstype);
 		for (int i = 0; i < apexTriggerList.length(); i++) {
